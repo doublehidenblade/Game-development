@@ -112,7 +112,7 @@ phase = "attack"
 player = 0
 #initialize text
 font = pygame.font.SysFont("comicsansms", 30)
-text = "Game begins!"
+text = "Press 'W','A','S','D' to move cursor, 'space' to click."
 master_text = font.render(text, True, (255,255,255))
 attacker_selected = False
 defender_selected = False
